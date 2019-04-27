@@ -1,9 +1,366 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-</body>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+
+    <style type="text/css">
+    	
+    	.my-navebar{
+    		
+    	}
+
+    	.nav-row{
+				
+    	}
+
+    	.my-col {
+    		
+    	}
+
+    	.my-row{
+    		
+    	}
+
+    	
+
+    	.bannerRow{
+    		
+    	}
+
+    	.modal-content{
+    		width: 100%;
+    		border: 1px solid red;
+    		border-radius: 15px;
+    	}
+
+    	.modal-header{
+    		background-color: blue;
+    		text-orientation: center;
+    	}
+
+    	.modal-body{
+    		width: 100%;
+    		background-color: white;
+    	}
+
+    	 .guest-preview-list{
+            float: right;
+            list-style: none;
+            list-style-type: none;
+            margin: 0;
+        }
+
+        .guest-image{
+            height: 200px;
+            width: 175px;
+        }
+
+        .born-sick{
+        	background-image: url(Media\Images\Guest-Photos\Born-Sick-Band-Picture.jpg);
+        }
+
+        .social-links{
+     		width: 50px;
+     		height: 50px;  	
+	    }
+
+	     .nav-item-choice-index{
+            background-color: white;
+            color:#FF3827;
+            font-size: 200%;
+
+        }
+
+
+    </style>
+
+  </head>
+  <body>
+	<div class="container my-container">
+		
+		<div class="row my-row justify-content-between">
+			
+		</div>
+
+    	<div class="row-sm-12 nav-row justify-content-between">
+    		<nav class="col navbar my-navbar navbar-expand-sm navbar-light bg-light navbar-fixed-top">
+				
+			<!--<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu" aria-expanded="true" aria-controls="navbarMenu">
+				<span class="navbar-toggler-icon"> </span>	
+			</button> -->
+	    		<div class="nav-menu" id="navbarMenu">
+	    			<ul class="navbar-nav mr-auto">
+	    				<li class="nav-item-active "><a class="nav-item-choice-index nav-link:focus" href="Index.html" navbar-brand><img height="50px" width="50px" src="Media/Images/Site-Photos/Heshtag-Logo.png"></a></li>
+	    				<li class="nav-item"><a href="Episodes.html" class="nav-link">Episodes</a></li>
+	    				<li class="nav-item"><a href="Guest-Profiles.html" class="nav-link">Guest Profiles</a></li>
+	    				<li class="nav-item"><a href="Store.html" class="nav-link">Store</a></li>
+	    				<li class="nav-item"><a href="Events.html" class="nav-link">Events</a></li>
+	    				<li class="nav-item"><a href="Giveaways.html" class="nav-link">Giveaways</a></li>
+	    				<li class="nav-item"><a href="Contact-Us.html" class="nav-link">Contact Us</a></li>
+	    				<li class="nav-item"><a href="Donate.html" class="nav-link">Donate</a></li>
+	    				
+    				</ul>
+    			</div>
+    			<div class="col nav-menu " id="navbarMenu">
+	    			<ul class="navbar-nav mr-auto justify-content-end">
+	    			
+	    				<li class="nav-item"><a href="https://www.instagram.com/heshtagpodcast/"><img  height="40px" width="40px"class="social-link image-fluid float-right" src="Media/Images/Social-Buttons/insta-logo.png"/></a></li>
+
+						<li class="nav-item"><a href="https://www.facebook.com/HeshTag-PodCast-2274335339473853/"><img  height="40px" width="40px" class="social-link image-fluid float-right" src="Media/Images/Social-Buttons/facebook-logo.png"/></a></li>
+
+						<li class="nav-item"><a href="https://open.spotify.com/show/1yQnt2MPaxhUEceGCuNam2"><img  height="40px" width="40px" class="social-link image-fluid float-right" src="Media/Images/Social-Buttons/spotify-logo.png"/></a></li>
+
+						<li class="nav-item"><a href="https://twitter.com/HeshtagP"><img  height="40px" width="40px" class="social-link image-fluid float-right" src="Media/Images/Social-Buttons/twitter-logo.png"/></a></li>
+    				</ul>
+    			</div>
+
+    		</nav>
+    		<br/>
+    		<br/>
+   		</div>
+<!--
+    <div class="modal hide fade center-block" id="myModal">
+		<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+  			<div class="modal-content">
+				<div class="row modal-header">
+					<a class="close" data-dismiss="modal" data-keyboard="true">×</a>
+					<h3>Give Away #1 Sign Up For Your Entry!</h3>
+				</div>
+				
+				<div class="row modal-body center-block">
+				 	<form action="info.php" method="post">
+						<div class="row form-group">
+							<label class="col-4"for="exampleInputFirstName">First Name</label>
+		
+							<input type="text" class="col form-control" id="exampleInputFirstName"  aria-describedby="emailHelp" placeholder="First Name">
+						</div>
+
+						<div class="row form-group">
+							<label class="col-4"for="exampleInputLastName">Last Name</label>
+
+							<input type="text" class="col form-control" id="exampleInputLastName"  aria-describedby="emailHelp" placeholder="Last Name">
+						</div>
+
+						<div class="row form-group">
+	 						<label class="col-4" for="exampleInputHeshTag">Hesh Tag</label>
+
+	 						<input type="text" class="col" id="exampleInputHeshTag" placeholder="Whats your Hesh Tag!">
+	 					</div>
+
+						<div class="row form-group">
+							<label class="col-4"for="exampleInputEmail1">Email address</label>
+		
+							<input type="email" class="col form-control" id="exampleInputEmail1"  aria-describedby="emailHelp"
+										placeholder="Enter email">
+						
+						
+							<small id="emailHelp" class="col form-text text-muted align-items-end">We'll never share your email.</small>
+						</div>
+						
+
+						<div class="row form-group">
+	 						<label class="col-4"for="exampleInputPassword1">Password</label>
+	 						<input type="password" class="col form-control" id="exampleInputPassword1" placeholder="Password">
+	 					</div>
+
+	 					<div class="row form-group">
+	 						<label class="col-4"for="exampleInputAddress1">Your Country</label>
+	 						
+	 						<input type="text" class="col form-control" id="exampleInputAddress1" placeholder="Your country">
+	 					</div>
+
+	 					<div class="row form-group">
+	 						<label class="col-4" for="exampleInputAddress2">Your State</label>
+
+	 						<input type="text" class="col" id="exampleInputAddress2" placeholder="Your State/City">
+	 					</div>
+				 				
+	 					<div class="form-check">
+	 						<input type="checkbox" class="form-check-input" id="exampleCheck1">
+		 					<label class="form-check-label" for="exampleCheck1">Check me out</label>
+						</div>
+				
+
+						<button type="submit" class="btn btn-primary">Enter To Win</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+  		<div class="modal-footer">
+    		<a href="#" class="btn">Close</a>
+    		<a href="#" class="btn btn-primary">Save changes</a>
+  		</div>
+	</div>
+-->
+
+    	<div class="modal fade" id="demoModal">
+  		<div class="modal-dialog">
+  			<div class="modal-content">
+  				<div class="modal-header">
+  					<h2 class="modal-title">Sign Up for 10% Discount!</h2>
+  					<button type="button" class="close" data-dismiss="modal" id="myModal">
+  						<span>&times;</span>
+  					</button>
+  				</div>
+  			
+  				<div class="modal-body">
+  					<form>
+ 						<div class="form-group">
+    						<label for="exampleInputEmail1">Email address</label>
+    						<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+    							placeholder="Enter email">
+    						<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  						</div>
+
+  						<div class="form-group">
+   	 						<label for="exampleInputPassword1">Password</label>
+   	 						<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+ 	 						<small id="emailHelp" class="form-text text-muted">Password must be 8-20 characters</small>
+ 	 					</div>
+ 	 				<!--
+ 	 					<div class="form-check">
+   	 						<input type="checkbox" class="form-check-input" id="exampleCheck1">
+   		 					<label class="form-check-label" for="exampleCheck1">Send Verification</label>
+  						</div>
+  					-->	<button type="submit" class="btn btn-primary" data-dismiss="modal">Submit</button>
+					</form>
+  				</div>
+  				<!--
+  				<div class="modal-footer">
+  					<button type="button" class="btn btn-secondary" data-dismiss="modal"> 
+  						<span>Submit</span>
+  					</button>
+  				</div> -->
+  			</div>
+  		</div>
+  		</div>
+
+
+    	<div class="row my-row bannerRow center-block">
+    	
+    		<div class="col center-block">
+    			
+    		</div>
+    
+    	</div>
+
+<!--==========================================================
+	order number: lower numbers aligns item to the left
+					higher numbers aligns item to the right
+					order-md-12 would move item to the right on medium or larger devices
+
+	offset-2 : moves column to the right however many the number is
+	offset-md-2
+				-->
+<!--
+	<div class="row">
+		<div class="col">
+			<div class="alert alert-success alert-dismissable fade show" role="alert">
+				<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span></button>
+				<h2>Whats your heshtag!</h2>
+			</div>
+		</div>
+	</div>
+-->
+<!--
+		<div class="row">
+			<div class="col">
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#demoModal">Subscribe!</button>
+			</div>
+		</div>
+-->
+	   
+						<!-- shadow-lg -->
+	    <div class="row my-row p-3 mb-5 bg-white rounded justify-content-between align-items-center">
+	    	<div class="col  col-5 my-col">
+	    		<div class="guest-box born-sick shadow-lg p-3 mb-5 bg-white rounded">
+            <span class="guest-preview">
+            <h4 class="guest-name">Nate, from<br/> Born SICK</h4>
+            <img src="Media\Images\Guest-Photos\Born-Sick-Website-Picture.jpg" class="guest-image">
+           
+            
+            
+        <!--<div class="col col-3 guest-col"> -->
+                <ul class="guest-preview-list">
+                    <li>Guest preview</li>
+                        
+                            <li>Age: 2</li>
+                            <li>Home Town:  Vancouver</li>
+                            <li>Heshtag: Punk Music </li>
+                            <li><button type="button"><a target="_blank" href="https://bornsick.bandcamp.com">They Seriously Rock</a></button></li>
+                        
+                    
+                </ul>
+            </span>
+            </div>
+
+            <hr>
+
+            <div class="guest-box shadow-lg p-3 mb-5 bg-white rounded">
+            <span class="guest-preview">
+            <h4 class="guest-name">Javier<br/> Sanchez</h4>
+            <img src="Media\Images\Guest-Photos\Guest-Pic-Javier.jpg" class="guest-image">
+           
+            </span>  
+        <!--<div class="col col-3 guest-col"> -->
+        <ul class="guest-preview-list">
+                    <li>Guest Preview</li>
+                    <li>Age: 25</li>
+                    <li>Home Town: Astoria</li>
+                    <li>Heshtag: Rap</li>
+                    <li><button type="button"><a target="_blank" href="https://soundcloud.com/xavieryoung-1/">Check out his Music</a></button></li>
+
+                </ul>
+            </div>
+
+<hr>
+            <div class="guest-box shadow-lg p-3 mb-5 bg-white rounded">
+            <span class="guest-preview">
+            <h4 class="guest-name">Lance<br/> Mickelson</h4>
+            <img src="Media\Images\Guest-Photos\Guest-Pic-Lance.jpg" class="guest-image">
+           
+            
+            
+        <!--<div class="col col-3 guest-col"> -->
+                <ul class="guest-preview-list">
+                    <li>Guest preview
+                        <ul>
+                            <li>Age: 25</li>
+                            <li>Home Town:  Astoria</li>
+                            <li>Heshtag: BMX </li>
+                        </ul>
+                    </li>
+                </ul>
+            </span>
+            </div>
+        </div>
+	    	</div>
+	    </div>
+	    <div class="row my-row justify-content-around align-items-s">
+
+	    </div>
+	    <!-- Optional JavaScript -->
+	    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	  	<script type="text/javascript">
+	    	$(window).on('load',function(){
+	        $('#demoModal').modal('show');
+	    	});
+	    	$('#demoModal').on('shown.bs.modal', function () {
+	  		$('#exampleInputEmail1').focus();
+	  		})
+
+		</script>
+  </div>
+  </body>
 </html>
